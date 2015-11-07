@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/places', to: "places#index"
+
   mount API::Base, at: "/"
   mount GrapeSwaggerRails::Engine, at: "/documentation"
 
