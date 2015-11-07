@@ -136,6 +136,7 @@ GEM
     rack-contrib (1.4.0)
       git-version-bump (~> 0.15)
       rack (~> 1.4)
+    rack-cors (0.4.0)
     rack-mount (0.8.3)
       rack (>= 1.0.0)
     rack-test (0.6.3)
@@ -226,6 +227,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers
   better_errors
   byebug
   coffee-rails (~> 4.1.0)
@@ -239,6 +241,7 @@ DEPENDENCIES
   jquery-rails
   meta_request
   quiet_assets
+  rack-cors
   rails (= 4.2.4)
   rspec-rails
   sass-rails (~> 5.0)

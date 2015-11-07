@@ -32,9 +32,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem "active_model_serializers"
 gem "grape"
 gem "grape-active_model_serializers"
 gem "grape-swagger-rails"
+gem "rack-cors", require: "rack/cors"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
